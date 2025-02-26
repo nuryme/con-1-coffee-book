@@ -35,7 +35,7 @@ export default function CoffeeDetails() {
   return (
     <div className="space-y-6">
       <h1 className="text-3xl font-thin">{coffee.description}</h1>
-      <img className="rounded-xl" src={coffee.image} alt="" />
+      <img className="rounded-xl h-full w-full" src={coffee.image} alt="" />
       <div className="flex justify-between">
         <div>
           <h3 className="text-2xl mb-4">{coffee.name}</h3>
